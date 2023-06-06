@@ -106,6 +106,9 @@ button {
 
 
 }
+button:hover{
+    background-color: var(--dark-navy);
+}
 .text-Container{
     display: flex;
     padding-left: 40px;
@@ -115,4 +118,7 @@ button {
 }
 .text-Container a {
     color: var(--background-blue);
+}
+.text-Container a:hover {
+    color: var(--dark-navy);
 }
