@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(./fonts/Poppins-Light.ttf);
+}
+
+:root {
+    --background-blue: #424cf9;
+    --dark-navy: #12006c;
+    --lavender: #8387fe;
+}
+
+.content{
+    display: flex;
+    
+}
+
+.side-Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 50vw;
+    background-image: url(./images/Background.jpg);
+    background-color: var(--background-blue);
+    background-size: cover;
+    
+}
+
+.hero-Header-Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 10px;
+    background-color: rgba(18, 0, 108, 0.5)
+
+}
+.image-Credits {
+    align-self: center;
+    margin-bottom: 5px;
+    color: var(--dark-navy);
+}
+a{
+    color: var(--dark-navy)
+}
+.hero-Header-Container img {
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+}
+
