@@ -16,10 +16,11 @@
 
 .side-Hero{
     display: flex;
+    flex-shrink: 0;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    width: 50vw;
+    width: 40vw;
     background-image: url(./images/Background.jpg);
     background-color: var(--background-blue);
     background-size: cover;
@@ -53,3 +54,62 @@ h1 {
     font-size: 4rem;
 }
 
+.form-Section{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+h2 {
+    padding-left: 40px;
+}
+
+.form-Container{
+    padding-left: 40px;
+    box-shadow: 0.1em 0.2em 1em rgba(18, 0, 108, 0.1);
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+form {
+    display: flex;
+    flex-flow: row wrap; 
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    font-size: 1.5rem;
+    background-color: var(--background-blue);
+    padding: 20px 50px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 20px 30px;
+
+
+}
+.text-Container{
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    gap: 4px;
+ 
+}
+.text-Container a {
+    color: var(--background-blue);
+}
